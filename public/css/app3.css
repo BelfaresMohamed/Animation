@@ -1,0 +1,40 @@
+.box{
+    background-color: brown;
+    margin-top: 10px;
+    padding: 2rem;
+    color: white;
+    width: 10%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.box1{
+    animation-name: fill;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-fill-mode: none;
+}
+
+.box2{
+    animation-name: fill;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-fill-mode: backwards;
+}
+
+.box3{
+    animation-name: fill;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fill {
+    from{
+        margin-left: 0rem;
+    }
+    to{
+        margin-left: 55rem;
+    }
+    
+}

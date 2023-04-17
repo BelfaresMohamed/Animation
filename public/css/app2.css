@@ -1,0 +1,54 @@
+/*Animtion*/
+
+.box{
+    background-color: brown;
+    margin-top: 30px;
+    padding: 2rem;
+    width: 10%;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+}
+.box1{
+    animation-name: direction;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: 3;
+
+}
+
+.box2{
+    animation-name: direction;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: 3;
+
+
+}
+
+.box3{
+
+    animation-name: direction;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-iteration-count: 3;
+
+
+}
+.box4{
+    animation-name: direction;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 3;
+
+
+}
+@keyframes direction {
+    form{
+        margin-left: 0rem;
+
+    }
+    to{
+        margin-left: 55rem;
+    }
+}

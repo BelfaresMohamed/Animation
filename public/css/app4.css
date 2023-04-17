@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/mer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+}
+
+.img1{
+    position: absolute;
+    animation-name: one;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes one {
+    from{
+        margin-left: -30rem;
+        margin-top: 10rem;
+    }
+    to{
+        margin-left: 50rem;
+        margin-top: 10rem;
+    }
+    
+}
+
+
+.img2{
+    position: absolute;
+    animation-name: two;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes two{
+    from{
+        margin-left: -20px;
+        margin-top: 0;
+    }
+    to{
+        margin-top: 25rem;
+        margin-left: 55rem;
+    }
+}
+
+h1{
+    font-size: 260px;
+    animation-name: three;
+    animation-duration: 2.5s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    text-shadow: 4px 6px #fff;
+    position: absolute;
+    top: 10rem;
+    left: 40px;
+}
+
+@keyframes three {
+    0%{
+        color: purple;
+    }
+    10%{
+        color: palevioletred;
+    }
+    20%{
+        color: pink;
+    }
+    
+    30%{
+        color: red;
+    }
+    50%{
+        color: rgb(218, 96, 96);
+    }
+    70%{
+        color: rgb(38, 128, 0);
+    }
+    90%{
+        color: rgb(6, 0, 128);
+    }
+    100%{
+        color: rgb(0, 128, 98);
+    }
+}
